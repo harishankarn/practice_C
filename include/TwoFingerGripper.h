@@ -7,7 +7,7 @@ class TwoFingerGripper: public Gripper {
 public:
     void grip() override;
     void release() override;
-    ~TwoFingerGripper() override;
+    ~TwoFingerGripper() override = default;
 };
 
 #endif

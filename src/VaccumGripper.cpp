@@ -9,3 +9,5 @@ void VacuumGripper::grip() {
 void VacuumGripper::release() {
     // program to release from VacuumGripper
 }
+
+VacuumGripper::~VacuumGripper() {}

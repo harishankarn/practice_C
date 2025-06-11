@@ -3,9 +3,9 @@
 
 class Gripper{
 public:
-    virtual void grip();
-    virtual void release();
-    virtual ~Gripper();
+    virtual void grip() = 0;
+    virtual void release() = 0;
+    virtual ~Gripper() = default;
 };
 #endif
 

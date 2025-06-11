@@ -6,7 +6,7 @@ class VacuumGripper: public Gripper {
 public:
     void grip() override;
     void release() override;
-    ~VacuumGripper() override;
+    ~VacuumGripper() override = default;
 };  
 
 #endif

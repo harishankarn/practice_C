@@ -7,3 +7,5 @@ void TwoFingerGripper::grip() {
 void TwoFingerGripper::release() {
     // program to release from TwoFingerGripper
 }
+
+TwoFingerGripper::~TwoFingerGripper() {}

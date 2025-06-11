@@ -1,5 +1,5 @@
 #include <iostream>
-#include <Robot.h>
+#include "Robot.h"
 
 Robot::Robot(const std::string &name, Gripper *gripper) 
     : m_name(name), m_gripper(gripper) {}
@@ -9,3 +9,5 @@ void Robot::task(){
     m_gripper->grip();
     m_gripper->release();
 }
+
+Robot::~Robot() {}
